@@ -1,0 +1,28 @@
+.dial {
+  height: 20rem;
+  width: 20rem;
+
+  // &__outer {
+  //   position: absolute;
+  //   left: 50%;
+  //   transform: translateX(-50%);
+  // }
+}
+
+.circle {
+  &__time {
+    position: absolute;
+    top: 9rem;
+  }
+
+  &__timer {
+    text-align: center;
+
+    &-wrapper {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+    }
+  }
+}
